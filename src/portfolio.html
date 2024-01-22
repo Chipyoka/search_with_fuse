@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Testing Fuse Search - Portfolio</title>
+		<link rel="stylesheet" href="../src/scss/style.scss" />
+		<script type="module" src="js/script.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="input-group mb-3">
+				<input
+					type="text"
+					id="searchInput"
+					class="form-control me-2"
+					placeholder="Search here"
+				/>
+				<div class="input-group-append">
+					<button id="closeButton" class=" btn btn-primary d-none" type="button">
+						Close
+					</button>
+				</div>
+			</div>
+		</div>
+		<br />
+		<!-- Results not found message -->
+		<div ><h4 class="text-center" id="noResultsMessage">No Match found !</h4></div>
+
+		<section class="container row g-4" >
+			<div class="card col-sm-4 project" data-tags="poster art" style="width: 18rem;">
+				<img src="/src/assets/display2.png" class="card-img-top" alt="..." />
+				<div class="card-body">
+					<h5 class="card-title">Poster</h5>
+					<p class="card-text">
+						Some quick example text to build on the card title and make up the bulk of
+						the card's content.
+					</p>
+					<a href="#" class="btn btn-primary">Go somewhere</a>
+				</div>
+			</div>
+
+			<div class="card col-sm-4 project" data-tags="logo brand" style="width: 18rem;">
+				<img src="/src/assets/display2.png" class="card-img-top" alt="..." />
+				<div class="card-body">
+					<h5 class="card-title">Brand</h5>
+					<p class="card-text">Some quick example text for the brand project.</p>
+					<a href="#" class="btn btn-primary">Go somewhere</a>
+				</div>
+			</div>
+
+			<div class="card col-sm-4 project" data-tags="logo" style="width: 18rem;">
+				<img src="/src/assets/display2.png" class="card-img-top" alt="..." />
+				<div class="card-body">
+					<h5 class="card-title">Logo</h5>
+					<p class="card-text">
+						Some quick example text to build on the card title and make up the bulk of
+						the card's content.
+					</p>
+					<a href="#" class="btn btn-primary">Go somewhere</a>
+				</div>
+			</div>
+
+			<div class="card col-sm-4 project" data-tags="profile company" style="width: 18rem;">
+				<img src="/src/assets/display2.png" class="card-img-top" alt="..." />
+				<div class="card-body">
+					<h5 class="card-title">Company Profile</h5>
+					<p class="card-text">
+						Some quick example text to build on the card title and make up the bulk of
+						the card's content.
+					</p>
+					<a href="#" class="btn btn-primary">Go somewhere</a>
+				</div>
+			</div>
+		</section>
+        <section class="container row g-4" >
+			<div class="card col-sm-4 project" data-tags="poster art" style="width: 18rem;">
+				<img src="/src/assets/display2.png" class="card-img-top" alt="..." />
+				<div class="card-body">
+					<h5 class="card-title">Poster</h5>
+					<p class="card-text">
+						Some quick example text to build on the card title and make up the bulk of row 2
+						the card's content.
+					</p>
+					<a href="#" class="btn btn-primary">Go somewhere</a>
+				</div>
+			</div>
+
+			<div class="card col-sm-4 project" data-tags="logo brand" style="width: 18rem;">
+				<img src="/src/assets/display2.png" class="card-img-top" alt="..." />
+				<div class="card-body">
+					<h5 class="card-title">Brand</h5>
+					<p class="card-text">Some quick example text for the brand project row 2.</p>
+					<a href="#" class="btn btn-primary">Go somewhere</a>
+				</div>
+			</div>
+
+			<div class="card col-sm-4 project" data-tags="logo" style="width: 18rem;">
+				<img src="/src/assets/display2.png" class="card-img-top" alt="..." />
+				<div class="card-body">
+					<h5 class="card-title">Logo</h5>
+					<p class="card-text">
+						Some quick example text to build on the card title and make up the bulk of
+						the card's content. row 2
+					</p>
+					<a href="#" class="btn btn-primary">Go somewhere</a>
+				</div>
+			</div>
+
+			<div class="card col-sm-4 project" data-tags="profile company" style="width: 18rem;">
+				<img src="/src/assets/display2.png" class="card-img-top" alt="..." />
+				<div class="card-body">
+					<h5 class="card-title">Company Profile</h5>
+					<p class="card-text">
+						Some quick example text to build on the card title and make up the bulk of
+						the card's content. row 2
+					</p>
+					<a href="#" class="btn btn-primary">Go somewhere</a>
+				</div>
+			</div>
+		</section>
+
+	</body>
+</html>

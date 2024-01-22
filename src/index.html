@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Testing Fuse Search - Home</title>
+		<link rel="stylesheet" href="../src/scss/style.scss" />
+		<script type="module" src="js/script.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="input-group mb-3">
+				<input
+					type="text"
+					id="searchInput"
+					class="form-control me-2"
+					placeholder="Search here"
+				/>
+				<div class="input-group-append">
+					<button id="closeButton" class=" btn btn-primary d-none" type="button">
+						Close
+					</button>
+				</div>
+			</div>
+		</div>
+		<br />
+		<section class="container row g-4">
+			<h2>Home Page</h2>
+			<a href="portfolio.html" class="btn btn-primary">Port</a>
+			<a href="about.html" class="btn btn-primary">about</a>
+		</section>
+	</body>
+</html>

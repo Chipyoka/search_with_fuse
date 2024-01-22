@@ -1,0 +1,12 @@
+# Node.js
+node_modules/
+
+# Parcel Cache
+.parcel-cache
+
+# Build Artfacts
+dist/
+
+#Txt files with researched code
+code2.Txt
+soure.txt
