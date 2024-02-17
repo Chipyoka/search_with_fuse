@@ -4,3 +4,21 @@
     display: none;
     color: red;
 }
+
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+
+}
+.custom-container{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 1em 10em;
+    padding: 1em 10em;
+}
+
+footer {
+    margin-top: 5em;
+    font-size: 0.7rem;
+}

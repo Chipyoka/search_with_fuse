@@ -5,15 +5,15 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Testing Fuse Search - Portfolio</title>
 		<link rel="stylesheet" href="../src/scss/style.scss" />
-		<link rel="icon" href="logo32.ico" type="image/x-icon">
-		<link rel="icon" href="logo16.ico" type="image/x-icon">
-		<link rel="icon" href="logo32.png" type="image/png" sizes="32x32">
-		<link rel="apple-touch-icon" sizes="180x180" href="apple-touch.png">
+		<link rel="icon" href="logo32.ico" type="image/x-icon" />
+		<link rel="icon" href="logo16.ico" type="image/x-icon" />
+		<link rel="icon" href="logo32.png" type="image/png" sizes="32x32" />
+		<link rel="apple-touch-icon" sizes="180x180" href="apple-touch.png" />
 		<script type="module" src="js/script.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.min.js"></script>
 	</head>
 	<body>
-		<div class="container">
+		<div class="custom-container">
 			<div class="input-group mb-3">
 				<input
 					type="text"
@@ -30,9 +30,9 @@
 		</div>
 		<br />
 		<!-- Results not found message -->
-		<div ><h4 class="text-center" id="noResultsMessage">No Match found !</h4></div>
+		<div><h4 class="text-center" id="noResultsMessage">No Match found !</h4></div>
 
-		<section class="container row g-4" >
+		<section class="custom-container row g-4">
 			<div class="card col-sm-4 project" data-tags="poster art" style="width: 18rem;">
 				<img src="/src/assets/display2.png" class="card-img-top" alt="..." />
 				<div class="card-body">
@@ -49,7 +49,10 @@
 				<img src="/src/assets/display2.png" class="card-img-top" alt="..." />
 				<div class="card-body">
 					<h5 class="card-title">Brand</h5>
-					<p class="card-text">Some quick example text for the brand project.</p>
+					<p class="card-text">
+						Some quick example text to build on the card title and make up the bulk of
+						the card's content. row 2
+					</p>
 					<a href="#" class="btn btn-primary">Go somewhere</a>
 				</div>
 			</div>
@@ -78,14 +81,14 @@
 				</div>
 			</div>
 		</section>
-        <section class="container row g-4" >
+		<section class="custom-container row g-4">
 			<div class="card col-sm-4 project" data-tags="poster art" style="width: 18rem;">
 				<img src="/src/assets/display2.png" class="card-img-top" alt="..." />
 				<div class="card-body">
 					<h5 class="card-title">Poster</h5>
 					<p class="card-text">
-						Some quick example text to build on the card title and make up the bulk of row 2
-						the card's content.
+						Some quick example text to build on the card title and make up the bulk of
+						row 2 the card's content.
 					</p>
 					<a href="#" class="btn btn-primary">Go somewhere</a>
 				</div>
@@ -95,7 +98,10 @@
 				<img src="/src/assets/display2.png" class="card-img-top" alt="..." />
 				<div class="card-body">
 					<h5 class="card-title">Brand</h5>
-					<p class="card-text">Some quick example text for the brand project row 2.</p>
+					<p class="card-text">
+						Some quick example text to build on the card title and make up the bulk of
+						the card's content. row 2
+					</p>
 					<a href="#" class="btn btn-primary">Go somewhere</a>
 				</div>
 			</div>
@@ -124,6 +130,9 @@
 				</div>
 			</div>
 		</section>
-
+		<footer>
+			&copy; 2024 All Rights Reserved. Blackgeek <br />
+			<em>Thanks to my <span style="color:red;">Pinky</span></em>
+		</footer>
 	</body>
 </html>
