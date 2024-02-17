@@ -22,3 +22,13 @@ footer {
     margin-top: 5em;
     font-size: 0.7rem;
 }
+
+@media (max-width : 767px){
+    .custom-container{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin: .5em 3em;
+        padding: .5em 3em;
+    }
+}
