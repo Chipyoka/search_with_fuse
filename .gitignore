@@ -6,6 +6,7 @@ node_modules/
 
 # Build Artfacts
 dist/
+build/
 
 #Txt files with researched code
 code2.Txt
